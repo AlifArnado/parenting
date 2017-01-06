@@ -63,6 +63,7 @@ function theme_wp_scripts()
  
     // style.css
     wp_enqueue_style('customize-style', get_stylesheet_uri());
+    wp_enqueue_style('costomize-index-style', get_template_directory_uri(). '/css/index.css');
     
     /**
      * JAVASCRPIPT
